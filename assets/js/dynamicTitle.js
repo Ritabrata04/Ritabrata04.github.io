@@ -1,7 +1,7 @@
 window.onload = function () {
   const favicon = document.getElementById('favicon')
   const pageTitle = document.title
-  const attentionMessage = 'Come back'
+  const attentionMessage = "Don't leave!"
 
   document.addEventListener('visibilitychange', function (e) {
     const isPageActive = !document.hidden
@@ -11,7 +11,7 @@ window.onload = function () {
   function toggle(isPageActive) {
     if (isPageActive) {
       document.title = pageTitle
-      favicon.href = './assets/images/dp_male.svg'
+      favicon.href = 'assets/images/image-260nw-1689628120.webp'
     } else {
       document.title = attentionMessage
       favicon.href = './assets/images/folded.png'
