@@ -7,7 +7,6 @@ script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
 document.body.appendChild(script);
 
 // Header
-
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
 <a class="navbar-brand" href="index.html">Ritabrata </a>
