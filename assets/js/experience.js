@@ -6,21 +6,21 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
    {
     title: "Deep Learning Intern",
-    cardImage: "assets/images/experience-page/gsoc.png",
+    cardImage: "assets/images/experience-page/ISI.png",
     place: "Purdue University",
     time: "(Jan,2024 - present)",
     desp: "<li>Working at CLAN Lab under Prof Dr. Vaneet Aggarwal.</li><li>Currently working on Interpretability of Sepsis DT framework.</li>",
   },
   {
     title: "Computer Vision Research Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
+    cardImage: "assets/images/experience-page/ISI.png",
     place: "ISI Kolkata",
     time: "(Aug,2023 - present)",
     desp: "<li>Working under the able guidance of Dr Umapada Pal..</li> <li>Worked on the Segment-Anything-Model (SAM) and created an inference structure for remote sensed images.</li> <li>Currently working on Handwriting Style Transfer for Indic languages.</li>",
   },
   {
     title: "Machine Learning Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
+    cardImage: "assets/images/experience-page/feynn.jpeg",
     place: "Feynn Labs",
     time: "(May,2023 - Jul,2023)",
     desp: "<li>Product Ideation for Parkinson’s Disease patients using Gait Analysis.</li><li>Led a team of five individuals as a Team Lead for Market Segmentation of the Indian EV Industry.</li><li>Financial modelling for Parkinson’s Disease solution.</li><li>Freezing-of-gait analysis using tDCS.</li>",
