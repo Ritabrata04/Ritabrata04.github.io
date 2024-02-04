@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
    {
     title: "Deep Learning Intern",
-    cardImage: "assets/images/experience-page/ISI.png",
+    cardImage: "assets/images/experience-page/Purdue.png",
     place: "Purdue University",
     time: "(Jan,2024 - present)",
     desp: "<li>Working at CLAN Lab under Prof Dr. Vaneet Aggarwal.</li><li>Currently working on Interpretability of Sepsis DT framework.</li>",
