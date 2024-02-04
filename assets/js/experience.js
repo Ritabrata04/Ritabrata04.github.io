@@ -57,66 +57,26 @@ const showCards2 = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards2);
 
-// Volunteership Cards
-
-const volunteership = document.querySelector(".volunteership");
-const volunteershipcards = [
-  {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
-    description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
-  },
-  {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
-    description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-  },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
-];
-
-const showCards = () => {
-  let output = "";
-  volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
-      (output += `        
-      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
-      
-      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
-      <div class="content">
-          <h2 class="volunteerTitle">${title}</h2><br>
-          <p class="copy">${description}</p></div>
-      
-      </div>
-      `)
-  );
-  volunteership.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards);
 
 // Hackathon Section
 
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
-  {
+   {
     title: "Dell Hack2Hire",
     subtitle: "ML Lead",
     image: "assets/images/experience-page/uplift.png",
-    desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
+    desp: "Led a team of 5 in the ML Operations department in creating SIBYL.ai, a deep learning tool for employee career path recommendation.",
     href: "https://uplift.girlscript.tech/",
-  },
+   },
+   {
+    title: "MUJ HACKX",
+    subtitle: "Participant",
+    image: "assets/images/experience-page/uplift.png",
+    desp: "Developed PhishGuard, an AI tool a cybersecurity application for phishing detection.",
+    href: "https://uplift.girlscript.tech/",
+      
+   };  
 
 ];
 
