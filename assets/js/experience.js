@@ -76,7 +76,7 @@ const mentor = [
     desp: "Developed PhishGuard, an AI tool a cybersecurity application for phishing detection.",
     href: "https://uplift.girlscript.tech/",
       
-   };  
+   }, 
 
 ];
 
