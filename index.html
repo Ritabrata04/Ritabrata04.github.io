@@ -2,14 +2,126 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Redirecting…</title>
-<link rel="canonical" href="https://ritabrata04.github.io/ritabrata/">
-<meta http-equiv="refresh" content="0; url=https://ritabrata04.github.io/ritabrata/">
-<script>
-  location.replace("https://ritabrata04.github.io/ritabrata/" + location.search + location.hash);
-</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="This website is no longer maintained.">
+<title>Not maintained · Ritabrata Chakraborty</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --paper:#f5f6f4;
+  --paper-2:#ecece9;
+  --ink:#0f1113;
+  --ink-soft:#3f4247;
+  --muted:#8a8e93;
+  --line:#e3e4de;
+  --card:#fbfcfa;
+  --accent:#3b3ae0;
+  --accent-soft:#3b3ae012;
+  --mono:"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#0b0c0e;
+    --paper-2:#141518;
+    --ink:#eef0f2;
+    --ink-soft:#b4b7bd;
+    --muted:#787c83;
+    --line:#23252a;
+    --card:#131418;
+    --accent:#8f8bff;
+    --accent-soft:#8f8bff1c;
+  }
+}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;height:100%;}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Inter", system-ui, sans-serif;
+  -webkit-font-smoothing:antialiased;
+  display:grid;
+  place-items:center;
+  min-height:100dvh;
+  padding:32px;
+}
+::selection{background:var(--accent); color:#fff;}
+a{color:var(--accent); text-decoration:none;}
+a:hover{text-decoration:underline; text-underline-offset:4px;}
+
+.card{
+  max-width:640px;
+  width:100%;
+  text-align:center;
+}
+.tag{
+  font-family:var(--mono);
+  font-size:12px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--accent);
+  display:inline-block;
+  border:1px solid var(--line);
+  background:var(--card);
+  padding:6px 12px;
+  border-radius:999px;
+  margin-bottom:26px;
+}
+h1{
+  font-family:"Space Grotesk", sans-serif;
+  font-weight:700;
+  font-size:clamp(38px, 8vw, 68px);
+  line-height:1.02;
+  letter-spacing:-.03em;
+  margin:0 0 20px;
+}
+.sub{
+  color:var(--ink-soft);
+  font-size:clamp(16px, 2.4vw, 19px);
+  line-height:1.6;
+  margin:0 auto 34px;
+  max-width:48ch;
+}
+.cta{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  font-family:"Space Grotesk", sans-serif;
+  font-weight:600;
+  font-size:17px;
+  color:#fff;
+  background:var(--accent);
+  padding:14px 26px;
+  border-radius:12px;
+  transition:transform .12s ease, filter .15s ease;
+}
+.cta:hover{text-decoration:none; transform:translateY(-2px); filter:saturate(1.1);}
+.cta svg{width:18px; height:18px;}
+.url{
+  display:block;
+  font-family:var(--mono);
+  font-size:13px;
+  color:var(--muted);
+  margin-top:22px;
+  word-break:break-all;
+}
+.url a{color:var(--muted);}
+.url a:hover{color:var(--accent);}
+</style>
 </head>
 <body>
-<p>Redirecting to <a href="https://ritabrata04.github.io/ritabrata/">ritabrata04.github.io/ritabrata/</a>…</p>
+  <main class="card">
+    <span class="tag">archived</span>
+    <h1>This site is no&nbsp;longer maintained</h1>
+    <p class="sub">Head over to my current website for the latest news, publications, and work.</p>
+    <a class="cta" href="https://ritabrata04.github.io/ritabrata/">
+      Go to current website
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+    </a>
+    <span class="url"><a href="https://ritabrata04.github.io/ritabrata/">ritabrata04.github.io/ritabrata/</a></span>
+  </main>
 </body>
 </html>
